@@ -13,7 +13,9 @@ import RealTime from './Components/RealTime'
 import Skill from './Components/Skill'
 import SQL from './Components/SQL'
 import Templalte from './Components/TemplateEngines'
-
+import ApiClient from './Components/ApiClient'
+import GoodToKnow from './Components/GoodToKnow'
+import CourseGood from './Components/CourseGoodToKnow'
 function App() {
   return (
     <div>
@@ -32,6 +34,11 @@ function App() {
         <Skill/>
         <SQL/>
         <Templalte/>
+        <ApiClient/>
+        <GoodToKnow/>
+        <CourseGood Tuyen="Kĩ năng mềm" time="30h" free="true"/>
+        <CourseGood Tuyen="Kĩ năng cần có" time="25h" free="false"/>
+        <CourseGood Tuyen="Reacjs" time="30h" free="true">ReactJs</CourseGood>
     </div>
     </div>
 
