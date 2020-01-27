@@ -7,7 +7,7 @@ class ObjectMap extends React.Component{
             <div className="col-xs-4 col-sm-4 col-md-4 col-log-4 margin">
                 <div className="panel panel-info">
                     <div className="panel-heading">
-                        <h3 className="panel-title title">Objec Mapping</h3>
+                        <h3 className="panel-title title">Object Mapping</h3>
                     </div>
                     <div className="panel-body">
                         <ul className="list-group">

@@ -13,6 +13,8 @@ import RealTime from './Components/RealTime'
 import Skill from './Components/Skill'
 import SQL from './Components/SQL'
 import Templalte from './Components/TemplateEngines'
+import ApiClient from './Components/ApiClient'
+import GoodToKnow from './Components/GoodToKnow'
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Skill/>
         <SQL/>
         <Templalte/>
+        <ApiClient/>
+        <GoodToKnow/>
     </div>
     </div>
 
