@@ -15,7 +15,11 @@ import SQL from './Components/SQL'
 import Templalte from './Components/TemplateEngines'
 import ApiClient from './Components/ApiClient'
 import GoodToKnow from './Components/GoodToKnow'
+<<<<<<< HEAD
 import CourseGood from './Components/CourseGoodToKnow'
+=======
+
+>>>>>>> 9e57f11fae56b81735d160bbe298a6d926a08d0f
 function App() {
   return (
     <div>
@@ -36,9 +40,12 @@ function App() {
         <Templalte/>
         <ApiClient/>
         <GoodToKnow/>
+<<<<<<< HEAD
         <CourseGood Tuyen="Kĩ năng mềm" time="30h" free="true"/>
         <CourseGood Tuyen="Kĩ năng cần có" time="25h" free="false"/>
         <CourseGood Tuyen="Reacjs" time="30h" free="true">ReactJs</CourseGood>
+=======
+>>>>>>> 9e57f11fae56b81735d160bbe298a6d926a08d0f
     </div>
     </div>
 
