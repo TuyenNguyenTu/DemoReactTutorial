@@ -4,7 +4,7 @@ class CourseGoodToKnow extends React.Component {
 
     ShowButtonFree() {
         var isFree = this.props.free;
-        if (isFree == 'true') {
+        if (isFree === 'true') {
             return <div >
                 <button className="btn btn-success">View</button>
             </div>;
@@ -17,7 +17,6 @@ class CourseGoodToKnow extends React.Component {
 
     render() {
         return (
-
             <div className="col-xs-4 col-sm-4 col-md-4 col-log-4 margin">
                 <div className="panel panel-info">
                     <div className="panel-heading">
