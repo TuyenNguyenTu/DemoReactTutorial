@@ -22,23 +22,26 @@ function App() {
     {
         Tuyen: 'F#',
         time: '30h',
-        free: 'true'
+        free: 'true',
+        liChildren:'Giao Tiếp'
     },
     {
         Tuyen:'Angular 4x',
         time: '50h',
-        free: 'false'
+        free: 'false',
+        liChildren:'Làm Việc'
     },
     {
         Tuyen:'NodeJs',
         time: '55h',
-        free: 'true'
+        free: 'true',
+        liChildren:'Express'
     }
 ];
 
 const elementCourse = items.map((item)=>
 
-<CourseGood Tuyen={item.Tuyen} time={item.time} free={item.free} key={item.Tuyen}/>
+<CourseGood Tuyen={item.Tuyen} time={item.time} free={item.free} key={item.Tuyen} liChildren={item.liChildren}/>
 );
   return (
     <div>

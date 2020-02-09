@@ -27,7 +27,7 @@ class CourseGoodToKnow extends React.Component {
                         <p className="text-info">Thời gian: {this.props.time}</p>
                         <p>{this.props.children}</p>
                         <ul className="list-group">
-                            <li className="list-group-item li-hover">Cách giao tiếp</li>
+                            <li className="list-group-item li-hover">{this.props.liChildren}</li>
                             <li className="list-group-item li-hover">Khả năng phán đoán </li>
                         </ul>
                     </div>
