@@ -16,7 +16,8 @@ import Templalte from './Components/TemplateEngines'
 import ApiClient from './Components/ApiClient'
 import GoodToKnow from './Components/GoodToKnow'
 import CourseGood from './Components/CourseGoodToKnow'
-
+import NodeJs from './Components/NodeJS'
+import LifeCycle from './Components/LifeCycle'
 function App() {
   const items = [
     {
@@ -62,6 +63,8 @@ const elementCourse = items.map((item)=>
         <Templalte/>
         <ApiClient/>
         <GoodToKnow/>
+        <LifeCycle/>
+        <NodeJs Tuyen="NodeJs" time="35h" liChildren="ExpressJs" liChildren1="Single Thread" liChildren2="Typescript" liChildren3="Typescript" liChildren4="Typescript" />
         {elementCourse}
         {/* <CourseGood Tuyen="Kĩ năng mềm" time="30h" free="true"/>
         <CourseGood Tuyen="Kĩ năng cần có" time="25h" free="false"/> */}
