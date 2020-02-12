@@ -18,6 +18,9 @@ import GoodToKnow from './Components/GoodToKnow'
 import CourseGood from './Components/CourseGoodToKnow'
 import NodeJs from './Components/NodeJS'
 import LifeCycle from './Components/LifeCycle'
+import Solid from './Components/Solid'
+import DesignPattern from './Components/DesignPatterns'
+
 function App() {
   const items = [
     {
@@ -62,6 +65,8 @@ const elementCourse = items.map((item)=>
         <SQL/>
         <Templalte/>
         <ApiClient/>
+        <Solid/>
+        <DesignPattern/>
         <GoodToKnow/>
         <LifeCycle/>
         <NodeJs Tuyen="NodeJs" time="35h" liChildren="ExpressJs" liChildren1="Single Thread" liChildren2="Typescript" liChildren3="Typescript" liChildren4="Typescript" />
